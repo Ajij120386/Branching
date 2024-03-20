@@ -1,0 +1,1461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+
+
+
+
+  <!------Main css-->
+
+  <style>
+
+     /* google fonts */
+ @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+ /* global css */
+ :root 
+ {
+     --main-color:#e20e0e;
+
+     --white:#fff;
+  
+ }
+ body
+ {
+      font-family: "Kaushan Script", cursive; */
+     font-size: 16px;
+     font-weight: normal;
+     overflow-x: hidden;
+    background-color: rgb(0, 0, 33);
+      color: white;
+      font-family: 'Poppins', sans-serif;
+ }
+ *
+ {
+     margin: 0;
+     padding: 0;
+     outline: none !important;
+ }
+
+ 
+ a,a:hover
+ {
+     text-decoration: none;
+ }
+
+ .btn-2
+ {
+     background-color: var(--white);
+     padding: 15px 40px;
+     border: none;
+     border-radius: 30px;
+     color: var(--main-color);
+     font-size: 16px;
+     text-transform: capitalize;
+     box-shadow: var(--shadow-black-100);
+     font-weight: 500;
+     transition: all 0.5s ease;
+ }
+ .btn-2:hover
+ {
+     color: var(--white);
+     background-color: var(--main-color);
+ }
+ .section-padding
+ {
+     padding: 80px 0;
+ }
+ .section-title
+ {
+     margin-bottom: 60px;
+     font-family: "Kaushan Script", cursive;
+ }
+ .section-title h4
+ {
+     font-size: 20px;
+     font-weight: 700;
+     color: white;
+     text-transform: capitalize;
+     text-align: center;
+ }
+ .section-title h2
+ {
+     font-size: 30px;
+     color: var(--black-900);
+     font-weight: 700;
+     text-transform: uppercase;
+     margin: 0;
+     text-align: center;
+ }
+ .section-title h2 span 
+ {
+     color: var(--main-color);
+ }
+ .owl-carousel .owl-dots
+ {
+     padding: 0 15px;
+     text-align: center;
+     margin-top: 20px;
+ }
+ .owl-carousel button.owl-dot 
+ {
+     height: 6px;
+     width: 24px;
+     background-color: #dddddd;
+     display: inline-block;
+     margin: 0 4px;
+     border-radius: 5px;
+ }
+ .owl-carousel button.owl-dot.active 
+ {
+     background-color: var(--main-color);
+ }
+
+ /* Nav Bar------------------------------------------------------------------start*/
+ 
+ nav .container{ 
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Kaushan Script", cursive;
+  
+
+ } 
+
+ nav ul { 
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+
+ } 
+  nav ul li { 
+
+   list-style: none;
+  
+
+ } 
+
+ .navbar
+ {
+   
+    background-color: rgb(18, 18, 62);
+     padding: 30px 0;
+     box-shadow: 0 10px 10px rgba(0,0,0,0.08);
+     transition: all 0.5s ease;
+ }
+ .navbar.navbar-shrink
+ {
+     padding: 20px 0;
+     box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+ }
+ .navbar > .container
+ {
+     padding: 0 15px;
+ }
+ .navbar .navbar-brand
+ {
+     font-size: 30px;
+     color: var(--main-color);
+     font-weight: 500;
+     text-transform: capitalize;
+ }
+ .navbar .nav-item
+ {
+   
+     margin-left: 35px;
+ }
+ .navbar .nav-item .nav-link
+ {
+     color: var(--black-400);
+     text-transform: capitalize;
+     font-size: 18px;
+     font-weight: 400;
+     padding: 5px 0;
+     position: relative;
+ }
+ .navbar .nav-item .nav-link::before
+ {
+     position: absolute;
+     content: '';
+     width: 3px;
+     height: 0;
+     background-color: var(--main-color);
+     left: 50%;
+     top: -45px;
+     transform: translateX(-50%);
+     transition: all 0.3s ease-out 0s;
+ }
+ .navbar .nav-item .nav-link.active,
+ .navbar .nav-item .nav-link:hover
+ {
+     color: var(--main-color);
+ }
+ .navbar .nav-item .nav-link.active::before,
+ .navbar .nav-item .nav-link:hover::before
+ {
+     height: 45px;
+ }
+
+
+ /* Nav Bar------------------------------------------------------------------End*/
+
+
+
+ /* Home section---------------------------------------------------------Start */
+
+
+
+ .left {
+    font-size: 1.5rem;
+  }
+
+  .firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+    align-items: center;
+    font-family: cursive;
+
+  }
+
+  .firstsection>div {
+    width: 35%;
+
+  }
+
+  .leftsection {
+
+    font-size: 2.1rem;
+
+
+  }
+
+  .leftsection .buttons {
+
+    padding: 50px 0;
+  }
+
+  .leftsection .btn {
+
+    padding: 12px;
+    font-size: 15px;
+    background: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+
+
+  }
+   
+
+   .btn  a {
+    text-decoration: none;
+    color: white;
+
+  }
+
+  
+  .rightsection img {
+
+    width: 80%;
+    margin: 50px 0;
+
+  }
+
+  .purple {
+
+    color: #a800a8;
+  }
+
+  #element {
+   
+    color: #a800a8;
+  }
+
+ /* Home section---------------------------------------------------------END */
+
+
+
+
+
+ /* About section -----------------------------------------------------Start*/
+
+
+
+#about{
+
+    display: flex;
+ }
+
+ .about-content
+{
+   margin: 0 63px;
+   height: 390px;
+   width: 70%;
+
+}
+
+ .about-content .about-title
+{
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+}
+.about-content .about-title span
+{
+    color: #a800a8;
+}
+.about-content p
+{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--black-400);
+    margin: 0px;
+}
+.about-content ul
+{
+    padding-top: 15px;
+}
+.about-content ul li
+{
+    width: 50%;
+    float: right;
+    list-style: none;
+    margin-top: 5px;
+}
+.about-content .single-info .info-icon
+{
+    width: 18px;
+    text-align: center;
+}
+.about-content .single-info .info-icon i
+{
+    font-size: 16px;
+    display: inline-block;
+    color:blueviolet;
+}
+.about-content .single-info .info-text
+{
+    padding-left: 15px;
+}
+.about-content .single-info .info-text p span
+{
+    color: olivedrab;
+    font-weight: 500;
+}
+
+
+.about-area .row{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+.skills{
+    width: 400px;
+    margin-right: 50px;
+    margin-top: 70px;
+   
+  }
+  
+  .skill-name{
+    font-size: 10px;
+    font-weight: 500;
+    color:white;
+   
+    text-transform: uppercase;
+    margin: 20px 0;
+    font-family: "Ubuntu", sans-serif;
+  }
+  
+  .skill-bar{
+    height: 10px;
+    background:white;
+    border-radius: 3px;
+  }
+  
+  .skill-per{
+    height: 10px;
+    background-color: darkgreen;
+    color: red;
+    border-radius: 3px;
+    position: relative;
+    animation: fillBars 2.5s 1;
+  }
+  
+  .skill-per::before{
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background: #f1f1f1;
+    border-radius: 4px;
+    font-size: 12px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+  }
+  
+  .skill-per::after{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #f1f1f1;
+    top: -20px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+  }
+  
+  @keyframes fillBars{
+    from{
+      width: 0;
+    }
+    to{
+      width: 100%;
+    }
+  }
+
+
+
+  /* About Section------------------------------------------------------------------end*/
+
+
+
+
+
+
+
+  /* Experience Section------------------------------------------------------------------Start*/
+
+
+
+.Experience 
+{
+    background-color: var(--shadow-black-100);
+    font-family: "Kaushan Script", cursive;
+}
+
+
+
+  .text-gray {
+    color: gray;
+    font-size: 0.9rem;
+  }
+
+  .secondsection {
+    max-width: 80vw;
+    margin: 43px;
+    height: 100vh;
+  }
+
+  .secondsection h1 {
+    font-size: 1.1rem;
+  }
+
+  .secondsection .box {
+    background: white;
+    width: 90vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+  }
+
+  .secondsection .vertical {
+    height: 103px;
+    width: 1px;
+    background: white;
+    margin: 0 16vw;
+  }
+
+  .image-top {
+
+    width: 23px;
+    position: relative;
+    top: -23px;
+    left: -9px;
+  }
+
+  .vertical-title {
+
+    position: relative;
+    top: 66px;
+    left: -80px;
+    width: 371px;
+    font-size: 19px;
+
+  }
+
+  .vertical-desc {
+
+    position: relative;
+    top: 76px;
+    left: -49px;
+    color: white;
+    width: 150px;
+    font-size: 13px;
+
+  }
+     .Experience{
+      color: crimson;
+      font-size: 20px;
+     }
+
+
+
+      /* Experience Section------------------------------------------------------------------end*/
+
+
+
+
+
+
+
+
+
+
+
+ /* Service Section------------------------------------------------------------------Start*/
+
+.services
+{
+    background-color: var(--black-100);
+    font-family: "Kaushan Script", cursive;
+  
+}
+
+
+.services-section-padding .row{
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.service-item
+{
+    box-shadow: var(--shadow-black-100);
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    width: 300px;
+}
+.service-item:hover
+{
+    background-color: saddlebrown;
+}
+.service-item .icon 
+{
+    height: 60px;
+    width: 60px;
+    margin: 0 auto 30px;
+    text-align: center;
+    font-size: 30px;
+    color: var(--white);
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease;
+}
+.service-item:hover .icon::before
+{
+    background-color: var(--white);
+}
+.service-item:hover .icon
+{
+    color: var(--main-color);
+    font-size: 20px;
+}
+.service-item .icon::before
+{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border-bottom-right-radius: 0;
+    background-color: var(--main-color);
+    z-index: -1;
+    transition: all 0.3s ease;
+}
+.service-item .icon i
+{
+    line-height: 60px;
+}
+.service-item h3
+{
+    font-size: 22px;
+    margin: 0 0 20px;
+    color: var(--black-900);
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.service-item:hover h3
+{
+    color: var(--white);
+}
+.service-item p
+{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+    color: var(--black-400);
+    margin: 0 0 15px;
+}
+.service-item:hover p
+{
+    color: var(--black-100);
+}
+
+
+
+/* Service Section------------------------------------------------------------------End*/
+
+
+
+
+
+
+/* Contact Section------------------------------------------------------------------Start*/
+.contact 
+{
+    background-color: var(--shadow-black-100);
+    font-family: "Kaushan Script", cursive;
+    height: 600px;
+}
+
+.contact .row{
+
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.contact-form {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.contact-info h3
+{
+    font-size: 22px;
+    color: var(--black-900);
+    font-weight: 500;
+    margin: 0 0 40px;
+}
+.contact-info-item
+{
+    position: relative;
+    padding-left: 55px;
+    margin-bottom: 30px;
+    font-family: "Kaushan Script", cursive;
+}
+.contact-info-item i
+{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    left: 0;
+    top: 0;
+    border-radius: 50%;
+    font-size: 16px;
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+    text-align: center;
+    line-height: 38px;
+    
+}
+.contact-info-item h4
+{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 0 10px;
+    color: var(--black-900);
+}
+.contact-info-item p
+{
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+    line-height: 26px;
+    color: var(--black-400);
+}
+
+
+.contact-form .form-group
+{
+    margin-bottom: 25px;
+}
+.contact-form .form-control
+{
+    width: 493px;
+    height: 52px;
+    border: 1px solid transparent;
+    box-shadow: var(--shadow-black-100);
+    border-radius: 30px;
+    padding: 0 24px;
+   
+    background-color: var(--white);
+    transition: 0.5s ease;
+    font-family: 'Poppins', sans-serif;
+}
+.contact-form textarea.form-control
+{
+    height: 130px;
+    padding: 12px;
+    resize: none;
+}
+.contact-form .form-control:focus
+{
+    border-color: magenta;
+}
+
+
+#msg {
+
+
+    color: olive;
+    margin-bottom: -548px;
+    margin-left: 178px;
+    
+    
+    display: block;
+}
+}
+
+/* header social     SEction */
+
+ .header-social1-icon
+{
+    position: relative;
+    bottom: 30px;
+    left: -435px;
+    top: -115px;
+    width: 100%;
+}
+ .header-social-icon1::before
+{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: var(--main-color);
+    left: -102.5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.header-social1-icon ul li
+{
+    display: inline-block;
+    margin-left: 13px;
+}
+.header-social1-icon ul li:first-child
+{
+    margin-left: 0;
+}
+.header-social1-icon ul li a
+{
+    color: green;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    text-align: center;
+    transition: all 0.3s ease-out 0s;
+}
+.header-social1-icon ul li a:hover
+{
+    color: var(--white);
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+
+
+
+
+/* Contact Section------------------------------------------------------------------End/
+
+
+
+
+
+
+/* Footer Section------------------------------------------------------------------Start*/
+.footer 
+{
+    background-color: black;
+   
+}
+.footer .copyright-text
+{
+    padding: 10px 0;
+    text-align: center;
+    font-size: 18px;
+    color: rgba(255,255,255,0.9);
+    padding: 25px 0;
+    font-weight: 300;
+    margin: 10px 0 0;
+}
+
+.footer .copyright-text  i{
+
+    color: red;
+}
+
+/* Footer Section------------------------------------------------------------------Start*/
+
+
+
+/* responsive --------------------------------*/
+
+@media screen and (max-width: 1350px) {
+
+
+    .navbar .nav-item .nav-link::before {
+      
+        width: 0px;
+    }
+
+    nav .container {
+       
+        flex-direction: column;
+    }
+   
+    .about-content ul li {
+        width: 100%;
+    }
+
+
+    .firstsection {
+      flex-direction: column-reverse;
+    }
+
+    .secondsection{
+      
+        height: 145vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .box {
+      flex-direction: column;
+    }
+
+    .secondsection .vertical {
+      height: unset;
+    }
+
+    .secondsection .box {
+      width: 87vw;
+    }
+
+    .vertical-title,
+    .vertical-desc {
+      left: 31px;
+    }
+
+     .leftsection{
+
+      width: 100% !important;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+      align-items: center;   
+
+     }
+    .rightsection{
+      width: 721px !important;
+      display: flex;
+      justify-content: center;
+    }
+
+      .rightsection img{
+
+        width:45vw;
+        margin-bottom: 73px;
+      }
+
+      .image-top{
+        top: 97px;
+      }
+
+    body{
+      min-width: :fit-content;
+    }
+    
+    .secondsection{
+     
+      height: 141vh;
+    }
+          
+         .footer-second, .footer-fourth,  .footer-third {
+
+      display:none;
+    }
+    
+    }
+
+  </style>
+
+
+
+
+
+
+
+  <!-- font awsome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+
+<body>
+
+
+<!-- header/nav Bar section ------------------------------------------------------------------Start-->
+  
+  <header class="header-area">
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <!-- brand -->
+        <a href="index.html" class="navbar-brand">Ajij's Portfolio</a>
+
+        <!-- navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#home" class="nav-link active" data-scroll-nav="0">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link" data-scroll-nav="1">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#experience" class="nav-link" data-scroll-nav="3">Experience</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#services" class="nav-link" data-scroll-nav="2">Services</a>
+            </li>
+
+
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link" data-scroll-nav="6">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+  <!-- header/nav Bar section ------------------------------------------------------------------end -->
+
+
+
+  <!-- home section ------------------------------------------------------------------Start-->
+
+
+  <section class="firstsection" id="home">
+    <div class="leftsection">
+      <div> Hi, My name is <span class="purple"> Ajij</span> </div>
+      <div>and I am a Passionate</div>
+
+
+      <!-- Element to contain animated typing -->
+      <span id="element"></span>
+
+
+      <div class="buttons">
+        <button class="btn"><a href="Ajij_resume.pdf" target="_blank">Download Resume</a></button>
+        <button class="btn"><a href="https://github.com/Ajij120386" target="_blank">Github</a></button>
+
+      </div>
+    </div>
+    <div class="rightsection">
+      <img src="bg.png" </div>
+  </section>
+
+
+
+  <!-- header section------------------------------------------------------------------ end -->
+
+
+
+  <!-- about section ------------------------------------------------------------------start -->
+  <section class="about-area" data-scroll-index="1" id="about">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title">
+            <h4>About</h4>
+            <h2>Personal <span>Details</span></h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-6">
+          <div class="about-content">
+            <h5 class="about-title">I'm <span>Mohammad Ajij</span> and A Programmer</h5>
+            <p class="details">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus
+              error autem veniam, nobis dolorem tenetur iusto quos sint recusandae, illum maiores
+              similique aliquid et optio molestiae? Explicabo dolores perferendis consequatur
+              odio nam asperiores sequi voluptatem possimus. Cum sunt vitae cupiditate ea iste perspiciatis nam sit
+              distinctio ex quas. Neque libero asperiores quidem!</p>
+            <ul>
+              <li>
+                <div class="single-info d-flex align-items-center">
+                  <div class="info-icon text-center">
+                    <i class="fa fa-calendar"></i>
+                  </div>
+                  <div class="info-text">
+                    <p><span>Date of birth:</span> 2 march 2002</p>
+                  </div>
+                </div> <!-- single info -->
+              </li>
+              <li>
+                <div class="single-info d-flex align-items-center">
+                  <div class="info-icon text-center">
+                    <i class="fa fa-envelope"></i>
+                  </div>
+                  <div class="info-text">
+                    <p><span>Email:</span> mohammadajij120386@gmail.com</p>
+                  </div>
+                </div> <!-- single info -->
+              </li>
+              <li>
+                <div class="single-info d-flex align-items-center">
+                  <div class="info-icon text-center">
+                    <i class="fa fa-phone"></i>
+                  </div>
+                  <div class="info-text">
+                    <p><span>Phone:</span> +880 1609016477</p>
+                  </div>
+                </div> <!-- single info -->
+              </li>
+              <li>
+                <div class="single-info d-flex align-items-center">
+                  <div class="info-icon text-center">
+                    <i class="fa fa-map-marker"></i>
+                  </div>
+                  <div class="info-text">
+                    <p><span>Location:</span> Kutubdia, Cox's Bazar</p>
+                  </div>
+                </div> <!-- single info -->
+              </li>
+              <li>
+                <div class="single-info d-flex align-items-center">
+                  <div class="info-icon text-center">
+                    <i class="fa fa-university"></i>
+                  </div>
+                  <div class="info-text">
+                    <p><span>Degree:</span> BSC</p>
+                  </div>
+                </div> <!-- single info -->
+              </li>
+              <li>
+                <div class="single-info d-flex align-items-center">
+                  <div class="info-icon text-center">
+                    <i class="fa fa-user"></i>
+                  </div>
+                  <div class="info-text">
+                    <p><span>Website:</span> www.cryptical.com</p>
+                  </div>
+                </div> <!-- single info -->
+              </li>
+            </ul>
+
+          </div>
+        </div>
+
+
+
+
+        <div class="col-lg-6 col-xl-5 offset-xl-1">
+          <div id="skill-bar-wrapper">
+
+            <div class="skills">
+
+
+              <div class="skill">
+                <div class="skill-name">C++</div>
+                <div class="skill-bar">
+                  <div class="skill-per" per="90%" style="max-width:80%"></div>
+                </div>
+              </div>
+
+              <div class="skill">
+                <div class="skill-name">C</div>
+                <div class="skill-bar">
+                  <div class="skill-per" per="60%" style="max-width:60%"></div>
+                </div>
+              </div>
+
+              <div class="skill">
+                <div class="skill-name">HTML</div>
+                <div class="skill-bar">
+                  <div class="skill-per" per="80%" style="max-width:80%"></div>
+                </div>
+              </div>
+
+              <div class="skill">
+                <div class="skill-name">CSS</div>
+                <div class="skill-bar">
+                  <div class="skill-per" per="60%" style="max-width:60%"></div>
+                </div>
+              </div>
+
+             
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+  <!-- about us section------------------------------------------------------------------ end -->
+
+
+
+
+
+
+
+  <!-- Experience section------------------------------------------------------------------ Start -->
+
+
+
+
+
+  <section class="secondsection" data-scroll-index="2" id="experience">
+
+    <div class="row justify-content-center">
+      <div class="col-lg-18">
+        <div class="section-title">
+          <h4>What I have done so far</h4>
+          <h2>Work <span>Experience</span></h2>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="box">
+
+      <div class="vertical">
+        <img class="image-top" src="db.jpeg">
+
+        <div class="vertical-title">
+          <div class="Experience">Dwipbartika Association &#8594; Managing Editor</div>
+          <div>(January 2021 - January 2022)</div>
+        </div>
+        <div class="vertical-desc">
+          This experience reflects my ability to strategically lead editorial efforts, enhance content quality, and align publications with organizational objectives.I have played a pivotal role in overseeing and enhancing the editorial functions, content strategy, and publication processes.
+        </div>
+      </div>
+      <div class="vertical">
+        <img class="image-top" src="cf1.png">
+
+        <div class="vertical-title">
+
+          <div class="Experience"> Codeforces &#8594; Problem Solver</div>
+          <div>(January 2020 - Present)</div>
+        </div>
+        <div class="vertical-desc">
+          Through my regular participation in codeforces contests,I have honed my problem solving skills and expanded my
+          knowledge of algorithm and data structures.These contests have provided me with a platform to test my coding
+          abilities
+          and challenge myself with new and complex problems.
+        </div>
+      </div>
+      <div class="vertical">
+        <img class="image-top" src="lt1.png">
+
+        <div class="vertical-title">
+          <div class="Experience"> Leetcode &#8594; Problem Solver</div>
+          <div>(January 2020 - Present)</div>
+        </div>
+        <div class="vertical-desc">
+          As an avid participants in Leetcode , I am developing strong problem solving skill and a deep understanding of
+          various
+          algorithm and data structures.I consistently challenge myself to solve more complex coding problems withing
+          strict time
+          limits,honing my ability to think critically and analytically. .
+          Projects
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- services section ------------------------------------------------------------------start -->
+  <section class="services-section-padding" data-scroll-index="2" id="services">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title">
+            <h4>services</h4>
+            <h2>services <span>i provide</span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="content1">
+          <div class="service-item">
+            <div class="icon">
+              <i class="fas fa-laptop"></i>
+            </div>
+            <h3>web design</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quasi corporis
+              amet eligendi minima, omnis, ratione doloribus autem nemo provident
+              soluta vel illum magnam numquam?</p>
+          </div>
+        </div>
+        <div class="content1">
+          <div class="service-item">
+            <div class="icon">
+              <i class="fas fa-edit"></i>
+            </div>
+            <h3>video editing</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quasi corporis
+              amet eligendi minima, omnis, ratione doloribus autem nemo provident
+              soluta vel illum magnam numquam?</p>
+          </div>
+        </div>
+        <div class="content1">
+          <div class="service-item">
+            <div class="icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3>web development</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quasi corporis
+              amet eligendi minima, omnis, ratione doloribus autem nemo provident
+              soluta vel illum magnam numquam?</p>
+          </div>
+        </div>
+        <div class="content1">
+          <div class="service-item">
+            <div class="icon">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <h3>graphic design</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quasi corporis
+              amet eligendi minima, omnis, ratione doloribus autem nemo provident
+              soluta vel illum magnam numquam?</p>
+          </div>
+        </div>
+        <div class="content1">
+          <div class="service-item">
+            <div class="icon">
+              <i class="fas fa-bullhorn"></i>
+            </div>
+            <h3>digital marketing</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quasi corporis
+              amet eligendi minima, omnis, ratione doloribus autem nemo provident
+              soluta vel illum magnam numquam?</p>
+          </div>
+        </div>
+        <div class="content1">
+          <div class="service-item">
+            <div class="icon">
+              <i class="fas fa-mobile"></i>
+            </div>
+            <h3>android development</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quasi corporis
+              amet eligendi minima, omnis, ratione doloribus autem nemo provident
+              soluta vel illum magnam numquam?</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- services section------------------------------------------------------------------ end -->
+
+
+  <!-- contact section ------------------------------------------------------------------start-->
+  <section class="contact section-padding" data-scroll-index="6" id="contact">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title">
+            <h4>contact me</h4>
+            <h2>get <span>in touch</span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-5">
+          <div class="contact-info">
+            <h3>For Any Queries and Support</h3>
+            <div class="contact-info-item">
+              <i class="fas fa-location-arrow"></i>
+              <h4>Location</h4>
+              <p>Kutubdia, Cox's Bazar</p>
+            </div>
+            <div class="contact-info-item">
+              <i class="fas fa-envelope"></i>
+              <h4>Write to us at</h4>
+              <p>mohammadajij120386@gmail.com</p>
+            </div>
+            <div class="contact-info-item">
+              <i class="fas fa-phone"></i>
+              <h4>Call us on</h4>
+              <p>+880 1609016477</p>
+            </div>
+
+            <!-- header social -->
+            <div class="header-social1-icon">
+              <ul>
+                <li><a href="https://www.linkedin.com/in/mohammad-ajij-b5a6aa28a/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </li>
+                <li><a href="https://www.facebook.com/Mohammad.ajij.120386"  target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://github.com/Ajij120386" target="_blank"><i class="fab fa-github"></i></a></li>
+
+
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              </ul>
+            </div>
+
+
+          </div>
+
+        </div>
+ 
+
+        <div class="col-lg-8 col-md-7">
+          <div class="contact-form">
+            <form name="submit-to-google-sheet" action="">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <input type="text" name="Name" placeholder="Your Name" class="form-control" required>
+                  </div>
+                </div>
+
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <input type="email"  name="Email"  placeholder="Your Email" class="form-control" required>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <input type="text" name="Subject" placeholder="Subject" class="form-control">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <textarea name="Message" placeholder="Type Your Message Here..." id="" class="form-control" required></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <button class="btn-2" type="submit">Send Message</button>
+                </div>
+              </div>
+            </form>
+
+            
+          </div>
+          <span id="msg"></span>
+        </div>
+      </div>
+
+      
+  </section>
+
+
+
+  <!-- contact  Section------------------------------------------------------------------end-->
+
+
+
+
+
+  <!-- footer section------------------------------------------------------------------ start -->
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <p class="copyright-text">Copyright &#169; ajijsportfolio.com <i class="fas fa-heart"> </i> All rights reserved</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- footer section ------------------------------------------------------------------end -->
+
+
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Designer','Problem Solver', 'Programmer' ],
+      typeSpeed: 50,
+    });
+  </script>
+
+
+
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzPzkZROCF6OK-DPj-PABeIITzH41VlMISWs9wzdhy9mMVCQfTo9A35JAvtj9TWPmlv/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+
+              msg.innerHTML="Message sent successfullly"
+             setTimeout(function(){
+                
+               msg.innerHTML=""
+
+
+             },5000)
+             form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+
+</html>
